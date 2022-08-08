@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <title>My Blog</title>
+
+    <meta charset="UTF-8" name="viewport" content="width=device-width,
+    initial-scale=1, maximum-scale=1"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-style" rel="stylesheet" href="">
+
+</head>
+  <body>
+    <section class="s1">
+    <div class="main-container">
+      
+      <div class="intro-wrapper">
+        <div class="nav-wrapper">
+          <div class="dots-wrapper">
+              <div id="dot1" class="browser-dot">
+              </div>
+              <div id="dot2" class="browser-dot">
+              </div>
+              <div id="dot3" class="browser-dot">
+              </div>
+          </div>
+          <ul id="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li> <a href="#contact-form">Contact</a></li>
+          </ul>
+
+        </div>
+        <div class="left-column">
+          <img id="studdybuddy_pic" src="images/blog/home.jpg" alt="profile pic">
+
+
+
+        </div>
+        <div class="right-column">
+          <div id="preview-shadow1">
+            <div id="preview">
+              <div id="corner-tl" class="corner"></div>
+              <div id="corner-tr" class="corner"></div>
+              <h3>Ronwyn's Blog</h3>
+              <p>To see the code <a target="_blank" href="https://github.com/Dragon1t3/My-Blog-with-User-Authentication">click here</a></p>
+              <div id="corner-bl" class="corner"></div>
+              <div id="corner-br" class="corner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="s2">
+      <div class="details-wrapper">
+        <div class="details">
+          <h3>Details</h3>
+          <p>This is a personal blog and I was the sole developer on this project.
+             It was designed to share my thoughts and experiences of weeks gone passed.</p>
+          <p>Blog feautures consists of:</p>
+          <ul>
+            <li>•	User-Authentication</li>
+            <li>•	User post’s allowed</li>
+            <li>•	Comments on posts allowed</li>
+            <li>•	Post and comment editing implemented</li>
+            <li>•	Contact form</li>
+          </ul>
+          <p>User profiles are assigned random avatars through the gravatar
+            software installed onto the framework.</p>
+        </div>
+        <div class="technologies">
+          <h3 class="heading">Technologies Used</h3>
+          <div class="tech-list1">
+            <ul>
+              <li>Python</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+
+            </ul>
+          </div>
+          <div class="tech-list2">
+            <ul>
+              <li>Gravatar</li>
+              <li>Flask</li>
+              <li>PostgreSQL</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="s1">
+    <div class="main-container">
+      <div class="thumbnail-wrapper">
+        <div class="image-container">
+          <h3>Room perspective</h3>
+          <img class="thumbnail-preview" src="images/blog/post_with_comments.jpg" alt="">
+        </div>
+        <div class="image-container">
+          <h3>Login Page</h3>
+          <img class="thumbnail-preview" src="images/blog/login.jpg" alt="">
+        </div>
+        <div class="image-container">
+          <h3>Registration Page</h3>
+          <img class="thumbnail-preview" src="images/blog/registration.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="s2">
+        <div class="main-container">
+          <h3 style="text-align:center;">Get In Touch</h3>
+
+          <form id="contact-form" class="" action="index.html" method="post">
+            <label for="">Name</label>
+            <input class="input-field" type="text" name="name">
+            <label for="">Subject</label>
+            <input class="input-field" type="text" name="subject">
+            <label for="">Email</label>
+            <input class="input-field" type="email" name="email" >
+            <label for="">Message</label>
+            <textarea class="input-field" type="text" name="name" ></textarea>
+            <input id="submit-btn" type="submit" name="Send" value="Send">
+          </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
