@@ -22,13 +22,7 @@
     --penguin-beak: orange;
   }
 
-  @media (max-width: 350px) {
-    :root {
-      /* Only change code below this line */
 
-      /* Only change code above this line */
-    }
-  }
 
 html, body {
   padding: 0;
@@ -366,7 +360,7 @@ h6{ font-size: 16px;}
   display: grid;
 
   padding: 0 40px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 20px;
 }
 
@@ -748,4 +742,36 @@ h6{ font-size: 16px;}
     .right-column {
       justify-content: center;
     }
+}
+@media (max-width: 470px) {
+  :root {
+    --penguin-size: 300px;
+  }
+  .image-container {
+    height: 350px;
+    width: 350px;
+  }
+
+  .thumbnail-preview {
+    height: 230px;
+    width: 300px;
+  }
+
+  #studdybuddy_pic {
+    width: 300px;
+    height: 230px
+  }
+
+  #preview {
+    width: 240px;
+    height: 110px;
+    line-height: 1.5
+  }
+  #preview p, h3 {
+    margin: 0;
+  }
+
+  #preview-shadow1 {
+    width: 240px
+  }
 }
