@@ -832,4 +832,8 @@ h6{ font-size: 16px;}
     margin: 0 auto;
   }
 
+  #skills ul {
+    padding-left: 10px;
+  }
+
 }
