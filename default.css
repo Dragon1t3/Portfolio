@@ -357,6 +357,7 @@ h6{ font-size: 16px;}
   padding-top: 50px;
   text-align: justify;
   gap: 50px;
+  line-height: 1.5;
 }
 
 .details-wrapper {
@@ -376,6 +377,7 @@ h6{ font-size: 16px;}
 
 .details {
   text-align: justify;
+  line-height: 1.5
 }
 
 .details h3 {
