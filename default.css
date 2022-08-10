@@ -752,9 +752,14 @@ h6{ font-size: 16px;}
       justify-content: center;
     }
 }
-@media (max-width: 840px){
+@media (max-width: 900px){
   :root {
-    --penguin-size: 400px;
+    --penguin-size: 350px;
+  }
+
+  #studdybuddy_pic {
+    height: 300px;
+    width: 350px;
   }
 
   #preview {
