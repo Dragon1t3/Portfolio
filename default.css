@@ -772,6 +772,11 @@ h6{ font-size: 16px;}
   #preview-shadow1 {
     width: 250px;
   }
+
+  #skills {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 470px) {
@@ -795,7 +800,7 @@ h6{ font-size: 16px;}
 
   #preview {
     width: 240px;
-    height: 110px;
+
     line-height: 1.5
   }
   #preview p, h3 {
@@ -805,4 +810,14 @@ h6{ font-size: 16px;}
   #preview-shadow1 {
     width: 240px
   }
+
+  .details h3 {
+    margin-top: 20px;
+  }
+
+  #skills {
+    width: 80%;
+    margin: 0 auto;
+  }
+
 }
