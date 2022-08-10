@@ -752,6 +752,23 @@ h6{ font-size: 16px;}
       justify-content: center;
     }
 }
+@media (max-width: 840px){
+  :root {
+    --penguin-size: 400px;
+  }
+
+  #preview {
+    width: 250px;
+  }
+
+  #preview-shadow {
+    width: 250px;
+  }
+  #preview-shadow1 {
+    width: 250px;
+  }
+}
+
 @media (max-width: 470px) {
   :root {
     --penguin-size: 300px;
