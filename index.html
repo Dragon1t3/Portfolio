@@ -10,16 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="default.css">
     <link id="theme-style" rel="stylesheet" href="">
-
+    <script src="https://kit.fontawesome.com/c3d193cd7f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="s1">
         <div class="main-container">
-          <div class="greeting-wrapper">
-            <h1>Hi, I'm Ronwyn De Mink</h1>
-          </div>
+
           <div class="intro-wrapper">
             <div class="nav-wrapper">
               <div class="dots-wrapper">
@@ -29,7 +28,19 @@
                   </div>
                   <div id="dot3" class="browser-dot">
                   </div>
+                  <div class="nav-tab-wrapper">
+                    <div id="back" class="nav-arrow">
+                      <i class="fa fa-chevron-left"></i>
+                    </div>
+                    <div id="forward" class="nav-arrow">
+                      <i class="fa fa-chevron-right"></i>
+                    </div>
+                  </div>
               </div>
+              <div class="url-bar">
+                <p style='margin-left: 10px;' class="url-text"> <i class="fas fa-lock secure"> </i><small class="secure"> File </small> | https://devsearch.co.za</p>
+              </div>
+
               <ul id="navigation">
                   <li> <a href="#contact-form">Contact</a> </li>
               </ul>
@@ -49,6 +60,9 @@
               <p id="settings-note">"Theme settings will be saved for <br>your next visit"</p>
             </div>
             <div class="right-column">
+              <div class="greeting-wrapper">
+                <h1>Hi, I'm Ronwyn De Mink</h1>
+              </div>
               <div id="preview-shadow">
                 <div id="preview">
                   <div id="corner-tl" class="corner"></div>
@@ -79,24 +93,28 @@
 
               <p>Fullstack developer with primary focus on Django:
               <div class="links">
-                <a target="_blank" href="https://github.com/Dragon1t3"><img src="https://img.icons8.com/ios-glyphs/2x/github.png" alt="github"> </a>
-                <a target="_blank" href="https://www.linkedin.com/in/ronwyn-de-mink-a58850211/"><img src="https://img.icons8.com/ios-glyphs/2x/linkedin-circled.png" alt="linkedin"> </a>
+                <a target="_blank" href="https://github.com/Dragon1t3"> <i class="social-link fab fa-github"></i> </a>
+                <a target="_blank" href="https://www.linkedin.com/in/ronwyn-de-mink-a58850211/"><i class="social-link fab fa-linkedin"></i> </a>
               </div>
 
               <div id="skills">
                 <ul>
-                  <li>Python</li>
-                  <li>Flask</li>
-                  <li>Django</li>
-                  <li>PostgreSQL</li>
+                  <li><i class="fab fa-python"></i> Python</li>
+                  <li><i class="fab fa-html5"></i>HTML</li>
+                  <li><i class="fab fa-css3"></i> CSS</li>
+                  <li><i class="fab fa-js"></i> JavaScript</li>
                 </ul>
                 <ul>
-                  <li>JavaScript</li>
+                  <li>PostgreSQL</li>
+                  <li>Django</li>
+                  <li>Flask</li>
                   <li>Heroku</li>
-                  <li>HTML/CSS</li>
                 </ul>
               </div>
             </div>
+
+            <!-- Penguin -->
+
               <div class="penguin-wrapper">
                 <div class="penguin">
                   <div class="penguin-bottom">
@@ -136,16 +154,16 @@
                   <h6 class="post-title">StudyBuddy thread website</h6>
                   <p class="post-intro">Designed to provide a chatting service
                     for like minded folk of various studdy topics.</p>
-                  <a target="_blank" href="studdybuddy.html">Read More</a>
+                  <a href="studdybuddy.html">Read More</a>
                 </div>
               </div>
               <div class="post">
-                <img class="thumbnail" src="images/blog/home.JPG" alt="post image">
+                <img class="thumbnail" src="images/ecom/landing.JPG" alt="post image">
                 <div class="post-preview">
-                  <h6 class="post-title">Blog Website</h6>
+                  <h6 class="post-title">Ecom Website</h6>
                   <p class="post-intro">Originally designed to share my experiences
                     of events in weeks passed.</p>
-                  <a target="_blank" href="blog.html">Read More</a>
+                  <a href="blog.html">Read More</a>
                 </div>
               </div>
               <div class="post">
@@ -154,7 +172,7 @@
                   <h6 class="post-title">Coffee Shop API</h6>
                   <p class="post-intro">A list of cafe's in London showcasing coffee
                   price, number of seats, wifi quality, etc.</p>
-                  <a target="_blank" href="cafe_api.html">Read More</a>
+                  <a href="cafe_api.html">Read More</a>
                 </div>
               </div>
           </div>
@@ -177,6 +195,10 @@
           </form>
         </div>
     </section>
+    <div id="back-top" style="display: block;">
+      <a href="javascript:"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
